@@ -450,7 +450,19 @@
             </li>
           </ul>
         </div>
+      <div class="subscribe">
+        <h3 class="subscribe-title">підпишіться на розсилку</h3>
+        <form class="subscribe-form">
+          <input class="subscibe-input" type="email" name="email" placeholder="E-mail" />
+          <button class="subscribe-btn" type="submit">
+            <span>Підписатися</span>
+            <svg class="subscribe-icon" width="24" height="24">
+              <use href="./img/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
       </div>
+    </div>
     </footer>
     <div class="modal-backdrop is-hidden" data-modal>
       <div class="modal">
@@ -459,10 +471,8 @@
             <use href="./img/icons.svg#icon-close-black"></use>
           </svg>
         </div>
-
       <form name="call-back" class="modal-form">
         <h2 class="modal-info">Залиште свої дані, ми вам передзвонимо</h2>
-
         <div class="input-line  user-name">
           <label for="user-info" class="modal-label">Ім'я</label>
           <div class="input-value">
